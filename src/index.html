@@ -1,0 +1,35 @@
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Список задач</title>
+
+</head>
+<body>
+<div class="todo_container">
+        <div class="todo_app">
+            <h2>Список задач</h2>
+
+            <div class="row">
+                <input type="text" placeholder="Добавьте задачу" class="todo_input" />
+                <button class="todo_button" type="submit">Добавить</button>
+            </div>
+            <div class="select">
+                <select name="todos" class="filter_todo">
+                    <option value="all">Все</option>
+                    <option value="uncompleted">Активные</option>
+                    <option value="completed">Выполненные</option>
+                </select>
+            </div>
+            <ul class="todo_list">
+            </ul>
+
+        </div>
+</div>
+    
+    
+    <!-- ADDING JAVA SCRIPT -->
+    <script src="./todolist.js"></script>
+</body>
+</html>
